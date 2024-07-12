@@ -27,10 +27,10 @@ This is the overview:
 
 | Type | Description | Update cycle | Used for |
 | ---- | ----------- | ------------ | -------- |
-| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) M, D, H, T |
-| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) M, D, H, T |
-| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) H, T |
-| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) Y) |
+| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) M, D, H, T |
+| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) M, D, H, T |
+| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) H, T |
+| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) Y) |
 
 ## Time stamps and time intervals
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
