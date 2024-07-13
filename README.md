@@ -1,7 +1,14 @@
 # Download
-Below you'll find information about data granularity, structure and update cycle, time stamps and time intervals as well as on column separators, decimal dividers and missing values.
-
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download -->
+
+Below you'll find information about:
+
+1. [Data granularity](#data-granularity)
+2. [Data structure and update cycle](#data-structure-and-update-cycle)
+3. [Time stamps and time intervals](#time-stamps-and-time-intervals)
+4. [Column separators, decimal dividers and missing values](column-separators-decimal-dividers-and-misssing-values)
+
+---
 
 ## Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. 
