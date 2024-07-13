@@ -6,7 +6,7 @@ Below you'll find information about:
 1. [Data granularity](#data-granularity)
 2. [Data structure and update cycle](#data-structure-and-update-cycle)
 3. [Time stamps and time intervals](#time-stamps-and-time-intervals)
-4. [Column separators, decimal dividers and missing values](column-separators-decimal-dividers-and-missing-values)
+4. [Column separators, decimal dividers and missing values](#column-separators-decimal-dividers-and-missing-values)
 
 ---
 
