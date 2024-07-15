@@ -4,7 +4,7 @@
 Below you'll find information about:
 
 1. [Data granularity](#data-granularity)
-2. [Data structure and update cycle](#data-structure-and-update-cycle)
+2. [Update frequency](#Update-frequency)
 3. [Time stamps and time intervals](#time-stamps-and-time-intervals)
 4. [Column separators, decimal dividers and missing values](#column-separators-decimal-dividers-and-missing-values)
 
@@ -27,12 +27,12 @@ This is the overview of the granularities for [Ground-based](https://github.com/
 | M | Monthly value | Usually aggregated from daily values and widely used in climatology for homogenized data and norm values and for seasonal data. For some very old data series (pre 1864) only monthly data exists!| [Homogeneous climate data series](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html), [Climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) |
 | Y | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
-## Data structure and update cycle
+## Update frequency
 For [Ground-based](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#a-ground-based-measurements) and *[Atmosphere Measurements](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#atmosphere-measurements)*, for *[Observations Data](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#observations-data)* as well as for [Homogenous Climate Data Series](https://github.com/MeteoSwiss/opendata/tree/main?tab=readme-ov-file#homogenous-data-series), *[Climate Normals and Scenarios](https://github.com/MeteoSwiss/opendata/blob/main/README.md#normals--scenarios)* MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
 
-| Type | Description | Update cycle | Used for |
+| Type | Description | Update frequency | Used for |
 | ---- | ----------- | ------------ | -------- |
 | historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) M, D, H, T |
 | recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) M, D, H, T |
