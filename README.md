@@ -1,3 +1,5 @@
+[MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [General information](https://github.com/MeteoSwiss/opendata/blob/main/README.md#general-information) > Download
+
 # Download
 <!-- cf. https://opendatadocs.dmi.govcloud.dk/en/Download -->
 
