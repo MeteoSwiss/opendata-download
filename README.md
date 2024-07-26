@@ -50,8 +50,8 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - `y`: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = `1.1.2023 00:10 UTC to 31.12.2023 24:00 UTC`)
 
 **Accordingly, it follows that:**
-- for granularity T and H the time stamp defines the end of the measurement interval and
-- for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
+- for granularity `t` and `h` the time stamp defines the end of the measurement interval and
+- for higher granularities (`d`, `m` and `y`) the time stamp defines the beginning of the interval!
 
 ## Column separators, decimal dividers and missing values
 Generally, columns are separated with a semicolon (`;`). The decimal divider is a full stop (`.`). Missing values are empty.
