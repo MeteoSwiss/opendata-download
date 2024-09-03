@@ -54,4 +54,4 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - for higher granularities (`d`, `m` and `y`) the time stamp defines the beginning of the interval!
 
 ## Column separators, decimal dividers and missing values
-Generally, columns are separated with a semicolon (`;`). The decimal divider is a full stop (`.`). Missing values are empty.
+Generally, columns are separated with a semicolon (`;`). The decimal divider is a full stop (`.`). Missing values (e.g. due to instrument failure) are marked with -1000000, empty columns are used when a parameter is not measured at all at a certain station.
